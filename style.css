@@ -1,0 +1,89 @@
+body {
+    background: url(RainTreeBW.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: pink;
+    font-family: "Times New Roman";
+}
+
+#scrollWork {
+    width: 100%;
+    height: 180px;
+    overflow: auto;
+    background-color: rgba(55, 57, 90, 0.945);
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+}
+
+h2 {
+    text-align: center;
+    color: pink;
+}
+
+footer {
+    color: whitesmoke;
+}
+
+section {
+    justify-content: space-evenly;
+    overflow: hidden;
+    width: 95%;
+    border-radius: 16px;
+    border: 3px solid gray;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 16px white;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      text-align: center;
+      background-color: "#44465D";
+}
+
+li {
+      font-size: 14px;
+}
+
+li a {
+      display: block;
+      border: 1px solid gray;
+      border-radius: 16px;
+      box-shadow: 0 0 10px pink;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      color: white;
+      overflow: auto;
+}
+
+li a:hover {
+      background-color: "#6c71a7";
+      color: pink;
+      font-size: 18px;
+}
+
+img {
+    padding: 15px;
+}
+
+p {
+    margin: 14px;
+}
+
+figcaption {
+    color: white;
+}
