@@ -1,5 +1,5 @@
 body {
-    background: url(RainTreeBW.png);
+    background: black;
     background-repeat: no-repeat;
     background-size: auto;
     color: pink;
@@ -40,14 +40,14 @@ section {
     border-radius: 16px;
     border: 3px solid gray;
     padding: 10px;
-    margin: 10px;
-    margin-bottom: 25px;
+    margin: 0  auto 25px auto;
     box-shadow: 0 0 16px white;
     position: relative;
 }
 
 figure {
     position: top;
+    margin: -50px auto 20px auto;
 }
 
 .container {
@@ -88,7 +88,7 @@ li a:hover {
 }
 
 img {
-    padding: 5px;
+    padding: 45px;
 }
 
 p {
@@ -99,29 +99,36 @@ figcaption {
     color: white;
     font-size: 12px;
     text-align: center;
+    display: block;
 }
 
 div.gallery {
-    margin: 5px;
+    margin: 0 auto 0 auto;
     float: left;
     width: 180px;
     position: top;
-    
+   
 }
   
 div.gallery:hover {
-    width: 50%;
-    height: 50%;
+    transform: scale(2.5);
     position: top;
-    
+    z-index: 1; /* not working; wanting it pop above the border */
 }
   
-div.gallery img {
+div.gallery img { 
+    /* can't get the figcaption to stick to the image and I need to center the pictures! */
     width: 90%;
     border-radius: 10px;
     box-shadow: 0 0 10px pink;
-    height: auto;
+    height: auto; 
     margin-left: 10px;
-    
+    padding: 3px;
+
 }
  
+.pop-out
+    {
+        transition: transform .5s;
+}
+
