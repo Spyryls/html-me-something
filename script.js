@@ -1,15 +1,14 @@
-let ul = null;
-let liItems = null; 
-let imageWidth = null;
-let imageNumber = null;
-
-function init(){
-
-    ul = document.getElementById(‘image_slider’);
-    liItems = ul.children;
-    imageNumber = liItems.length;
-    imageWidth = liItems[0].children[0].offsetWidth;
-    // set ul’s width as the total width of all images in image slider.
-    ul.style.width = parseInt(imageWidth * imageNumber) + ‘px’;
-    slider(ul);
-}
+// <!--
+// REQUIREMENTS
+//     - Tell a story, 3-10 paragraphs
+//     - Choose a topic (e.g., professional journey, trip, hobby/passion)
+// a.  Use each of the following structural HTML5 tags: 
+//         paragraph 
+//         header 
+//         footer 
+//         main 
+//         article
+// b.  Use at least 1 image tag. Place image files in subfolder called 'images' within the 'html-me-something' directory.
+// c.  Use at least one HTML entity 
+// d.  Demonstrate creativity.
+// -->
